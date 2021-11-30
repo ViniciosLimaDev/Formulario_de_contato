@@ -1,0 +1,112 @@
+/*BODY {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+#formSend {
+    width: 50%;
+    max-width: 500px;
+    min-width: 260px;
+    margin: 0px auto 0px auto;
+}
+
+#idade {
+    width: 10%;
+    min-width: 80px;
+}
+
+#telefone,
+#email {
+    width: 20%;
+    min-width: 160px;
+}
+
+div {
+    width: 100%;
+}
+
+.txalc {
+    text-align: center;
+}
+
+.mrgB {
+    margin-bottom: 20px;
+}
+
+label {
+    width: 30%;
+    display: inline-block;
+    border-radius: 15px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+input {
+    width: 60%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    height: 25px;
+}
+
+input[type="button"],
+input[type="reset"] {
+    height: 30px;
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+.fl {
+    float: left;
+}
+
+#divMaster div {
+    height: 40px;
+}
+
+#enviar {
+    cursor: pointer;
+}
+
+*/
+
+* {
+    padding: 0;
+}
+
+#formularioenvio {
+    font-family: josenfin-sans;
+    margin: 100px;
+    width: 600px;
+}
+
+#capacityform {
+    margin-top: 70px;
+}
+
+.btn-primary {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.bd-example {
+    padding: 1.5rem;
+    margin-right: 0;
+    margin-left: 0;
+    border: 2px solid #cccc;
+    border-width: .2rem;
+}
+
+#mensagem {
+    text-align: center;
+    height: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    #formularioenvio {
+        font-family: josenfin-sans;
+        margin: 0 auto;
+        width: 300px;
+    }
+    #capacityform {
+        margin-top: 50px;
+    }
+}
